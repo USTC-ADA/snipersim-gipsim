@@ -77,3 +77,9 @@ frontend/pin-frontend/sift/*.h
 frontend/pin-frontend/sift/*.cc
 sift/recorder/sift/*.h
 sift/recorder/sift/*.cc
+
+# Benchmarks
+benchmarks
+
+# Python venv
+python3.8_env
