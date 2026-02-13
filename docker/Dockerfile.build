@@ -105,6 +105,10 @@ RUN apt-get update && apt-get install -y software-properties-common \
     python3.8-distutils \
  && rm -rf /var/lib/apt/lists/*
 
+RUN apt-get update && apt-get install -y \
+    time \
+ && rm -rf /var/lib/apt/lists/*
+
 RUN apt update && apt install -y sudo
 
 RUN groupadd -g ${GID} ${GNAME} \
